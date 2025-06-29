@@ -8,6 +8,8 @@ function ServicesSection() {
     return (
         <ServicesSectionStyle>
             <Box display={'flex'} justifyContent={'center'} alignItems={'center'} p={5} flexDirection={'column'} gap={5}>
+
+                {/* Main Title */}
                 <Stack direction={'column'} display={'flex'} sx={{ width: '55%' }} justifyContent={'center'} alignItems={'center'} gap={3} p={2}>
                     <Button out variant="outlined"
                         sx={{ color: `${getColorScheme().color3.color}` }}
@@ -18,7 +20,8 @@ function ServicesSection() {
                     <Typography color="neutral" textAlign={'center'} level="h4">We design, develop, and implement automation tools that help you work smarter, not harder</Typography>
                 </Stack>
 
-                <Stack justifyContent={'center'} alignItems={'center'} display={'flex'} height={'400px'} direction={'row'} gap={20}>
+                {/* Feature-01 */}
+                <Stack mt={5} justifyContent={'center'} alignItems={'center'} display={'flex'} height={'400px'} direction={'row'} gap={20}>
 
                     <Card variant="plain" sx={{ minWidth: 500, minHeight: '88%' }}>
                         <CardCover>
@@ -59,10 +62,9 @@ function ServicesSection() {
 
                     </Stack>
                 </Stack>
-            </Box>
 
-            <Box p={6}>
-                <Stack justifyContent={'center'} alignItems={'center'} display={'flex'} height={'400px'} direction={'row'} gap={10}>
+                {/* Feature-02 */}
+                <Stack mt={5} justifyContent={'center'} alignItems={'center'} display={'flex'} height={'400px'} direction={'row'} gap={10}>
                     <Stack width={550}>
                         <Button className="feat-btn" out variant="plain"
 
@@ -82,12 +84,12 @@ function ServicesSection() {
                                 disabled
                             >Summaries</Button>
                             <Button className="feat-btn" out variant="plain"
-                                sx={{ color: `${getColorScheme().color3.color}`}}
+                                sx={{ color: `${getColorScheme().color3.color}` }}
                                 color="neutral"
                                 disabled
                             >Scheduling</Button>
                             <Button className="feat-btn" out variant="plain"
-                                sx={{ color: `${getColorScheme().color3.color}`}}
+                                sx={{ color: `${getColorScheme().color3.color}` }}
                                 color="neutral"
                                 disabled
                             >Many more</Button>
@@ -106,6 +108,100 @@ function ServicesSection() {
                         </CardCover>
                     </Card>
                 </Stack>
+
+                {/* Feature-03 */}
+                <Stack mt={5} justifyContent={'center'} alignItems={'center'} display={'flex'} height={'400px'} direction={'row'} gap={20}>
+
+                    <Card variant="plain" sx={{ minWidth: 500, minHeight: '88%' }}>
+                        <CardCover>
+                            <img
+                                src="https://i.pinimg.com/736x/a6/3d/cd/a63dcdc99671b0f6c1cf0bb1f8d7dcf5.jpg"
+                                srcSet="https://i.pinimg.com/736x/a6/3d/cd/a63dcdc99671b0f6c1cf0bb1f8d7dcf5.jpg"
+                                loading="lazy"
+                                alt=""
+                            />
+                        </CardCover>
+                    </Card>
+
+
+                    <Stack width={550}>
+                        <Button className="feat-btn" out variant="plain"
+
+                            sx={{ color: `${getColorScheme().color3.color}`, width: '190px' }}
+                            color="neutral"
+                            disabled
+                        >Custom Projects</Button>
+
+                        <Typography pt={4} level="h1" sx={{ color: 'white', fontWeight: '500' }}>Build Smarter Systems</Typography>
+                        <Typography level="body-lg" sx={{ color: 'white', fontWeight: '400' }}>Whether you're starting from scratch or enhancing an existing system, we offer strategic consulting and develop custom AI projects aligned with your unique goals.</Typography>
+
+                        <Stack direction={'row'} gap={3} pt={3}>
+                            <Button className="feat-btn" out variant="plain"
+
+                                sx={{ color: `${getColorScheme().color3.color}` }}
+                                color="neutral"
+                                disabled
+                            >Strategy</Button>
+                            <Button className="feat-btn" out variant="plain"
+                                sx={{ color: `${getColorScheme().color3.color}` }}
+                                color="neutral"
+                                disabled
+                            >Custom AI</Button>
+                            <Button className="feat-btn" out variant="plain"
+                                sx={{ color: `${getColorScheme().color3.color}` }}
+                                color="neutral"
+                                disabled
+                            >Consulting</Button>
+                        </Stack>
+
+                    </Stack>
+                </Stack>
+
+                {/* Feature-04 */}
+                <Stack mt={5} justifyContent={'center'} alignItems={'center'} display={'flex'} height={'400px'} direction={'row'} gap={10}>
+                    <Stack width={550}>
+                        <Button className="feat-btn" out variant="plain"
+
+                            sx={{ color: `${getColorScheme().color3.color}`, width: '190px' }}
+                            color="neutral"
+                            disabled
+                        >Sales & Marketing</Button>
+
+                        <Typography pt={4} level="h1" sx={{ color: 'white', fontWeight: '500' }}>Accelerate Sales Growth</Typography>
+                        <Typography level="body-lg" sx={{ color: 'white', fontWeight: '400' }}>AI tools for lead generation, personalized outreach, and automated content creation that scales your sales efforts and builds stronger brand presence.</Typography>
+
+                        <Stack direction={'row'} gap={3} pt={3}>
+                            <Button className="feat-btn" out variant="plain"
+
+                                sx={{ color: `${getColorScheme().color3.color}` }}
+                                color="neutral"
+                                disabled
+                            >Leads</Button>
+                            <Button className="feat-btn" out variant="plain"
+                                sx={{ color: `${getColorScheme().color3.color}` }}
+                                color="neutral"
+                                disabled
+                            >Content</Button>
+                            <Button className="feat-btn" out variant="plain"
+                                sx={{ color: `${getColorScheme().color3.color}` }}
+                                color="neutral"
+                                disabled
+                            >Social post</Button>
+                        </Stack>
+
+                    </Stack>
+
+                    <Card variant="plain" sx={{ minWidth: 500, minHeight: '88%' }}>
+                        <CardCover>
+                            <img
+                                src="https://i.pinimg.com/736x/75/27/06/752706734238fd2c4aada2d1e4856bc0.jpg"
+                                srcSet="https://i.pinimg.com/736x/75/27/06/752706734238fd2c4aada2d1e4856bc0.jpg"
+                                loading="lazy"
+                                alt=""
+                            />
+                        </CardCover>
+                    </Card>
+                </Stack>            
             </Box>
         </ServicesSectionStyle>
     )
