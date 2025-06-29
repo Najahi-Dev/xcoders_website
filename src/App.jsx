@@ -7,14 +7,16 @@ import NavigationBar from './components/NavigationBar';
 import HeroSection from './components/HeroSection';
 import ServicesSection from './components/ServicesSection';
 import OurProcess from './components/OurProcess';
+import SideBar from './components/SideBar';
 
 function App() {
 
   return (
     <FullPageLayout>
-      <HeroSection/>
+      {/* <HeroSection/>
       <ServicesSection/>
-      <OurProcess/>
+      <OurProcess/> */}
+      <SideBar/>
     </FullPageLayout>
   )
 }

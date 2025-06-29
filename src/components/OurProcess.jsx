@@ -19,7 +19,7 @@ function OurProcess() {
                     <Stack direction={'row'} gap={7}>
                         {/* card-1 */}
                         <Box border={1} height={357} width={400} borderRadius={6} sx={{ border: '1px solid #aaaaaa2d', backgroundColor: `${getColorScheme().color3.backcolor}`, padding: '15px' }}>
-                            <Button className="feat-btn" variant="plain" sx={{ fontSize: '11px' }}>Step 1</Button>
+                            <Button disabled className="feat-btn" variant="plain" sx={{ fontSize: '11px' }}>Step 1</Button>
                             <Typography level="h2" pt={2} sx={{ color: 'white' }}>Smart Analyzing</Typography>
                             <Typography level="title-sm" color="neutral" pt={2}>We assess your needs and identify AI solutions to streamline workflows and improve efficiency.</Typography>
                             <Card variant="plain" sx={{ minWidth: 100, minHeight: '50%', marginTop: '20px' }}>
@@ -36,7 +36,7 @@ function OurProcess() {
 
                         {/* card-2 */}
                         <Box border={1} height={357} width={400} borderRadius={6} sx={{ border: '1px solid #aaaaaa2d', backgroundColor: `${getColorScheme().color3.backcolor}`, padding: '15px' }}>
-                            <Button className="feat-btn" variant="plain" sx={{ fontSize: '11px' }}>Step 2</Button>
+                            <Button disabled className="feat-btn" variant="plain" sx={{ fontSize: '11px' }}>Step 2</Button>
                             <Typography level="h2" pt={2} sx={{ color: 'white' }}>AI Development</Typography>
                             <Typography level="title-sm" color="neutral" pt={2}>Our team builds intelligent automation systems tailored to your business processes.</Typography>
                             <Card variant="plain" sx={{ minWidth: 100, minHeight: '50%', marginTop: '20px' }}>
@@ -56,7 +56,7 @@ function OurProcess() {
                     <Stack mt={4} direction={'row'} gap={7}>
                         {/* card-3 */}
                         <Box border={1} height={357} width={400} borderRadius={6} sx={{ border: '1px solid #aaaaaa2d', backgroundColor: `${getColorScheme().color3.backcolor}`, padding: '15px' }}>
-                            <Button className="feat-btn" variant="plain" sx={{ fontSize: '11px' }}>Step 3</Button>
+                            <Button disabled className="feat-btn" variant="plain" sx={{ fontSize: '11px' }}>Step 3</Button>
                             <Typography level="h2" pt={2} sx={{ color: 'white' }}>Seamless Integration</Typography>
                             <Typography level="title-sm" color="neutral" pt={2}>We smoothly integrate AI solutions into your existing infrastructure with minimal disruption.</Typography>
                             <Card variant="plain" sx={{ minWidth: 100, minHeight: '50%', marginTop: '20px' }}>
@@ -73,7 +73,7 @@ function OurProcess() {
 
                         {/* card-4 */}
                         <Box border={1} height={357} width={400} borderRadius={6} sx={{ border: '1px solid #aaaaaa2d', backgroundColor: `${getColorScheme().color3.backcolor}`, padding: '15px' }}>
-                            <Button className="feat-btn" variant="plain" sx={{ fontSize: '11px' }}>Step 4</Button>
+                            <Button disabled className="feat-btn" variant="plain" sx={{ fontSize: '11px' }}>Step 4</Button>
                             <Typography level="h2" pt={2} sx={{ color: 'white' }}>Continuous Optimization</Typography>
                             <Typography level="title-sm" color="neutral" pt={2}>We refine performance, analyze insights, and enhance automation for long-term growth.</Typography>
                             <Card variant="plain" sx={{ minWidth: 100, minHeight: '50%', marginTop: '20px' }}>
