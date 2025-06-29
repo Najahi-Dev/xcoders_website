@@ -1,6 +1,5 @@
 
 import styled from 'styled-components';
-import './App.css'
 import { getColorScheme } from './service';
 import FullPageLayout from './components/FullPageLayout';
 import NavigationBar from './components/NavigationBar';
