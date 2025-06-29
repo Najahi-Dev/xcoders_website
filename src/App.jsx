@@ -6,6 +6,7 @@ import FullPageLayout from './components/FullPageLayout';
 import NavigationBar from './components/NavigationBar';
 import HeroSection from './components/HeroSection';
 import ServicesSection from './components/ServicesSection';
+import OurProcess from './components/OurProcess';
 
 function App() {
 
@@ -13,6 +14,7 @@ function App() {
     <FullPageLayout>
       <HeroSection/>
       <ServicesSection/>
+      <OurProcess/>
     </FullPageLayout>
   )
 }

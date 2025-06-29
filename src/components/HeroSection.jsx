@@ -12,7 +12,7 @@ function HeroSection() {
 
             <Box display={'flex'} justifyContent={'center'} alignItems={'center'} flexDirection={'column'} gap={2} sx={{ minHeight: '100vh', backgroundImage: 'url("https://placehold.co/1920/1020/000/41414191")' }}>
                 <Box display={'flex'} justifyContent={'center'} alignItems={'center'} gap={1} p={2}
-                    sx={{ border:'1px solid #bcbcbc5a', backgroundColor:`${getColorScheme().color3.backcolor}`, borderRadius:'150px'}}
+                    sx={{ border:'1px solid #d5d5d51a', backgroundColor:`${getColorScheme().color3.backcolor}`, borderRadius:'150px'}}
                 >
                     <Stack sx={{ alignItems: 'center', justifyContent: 'center', borderRadius: '200px', width: '50px', height: '30px', backgroundColor: `${getColorScheme().color1.secondary}` }}>New</Stack>
                     Automated Lead Generation
