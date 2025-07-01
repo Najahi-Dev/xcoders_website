@@ -3,9 +3,17 @@ import NavigationBar from "./NavigationBar";
 import { Box, Button, Stack, Typography } from "@mui/joy";
 import { ArrowForward, ArrowOutward } from "@mui/icons-material";
 import { getColorScheme } from "../service";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import { useEffect } from 'react';
 
 
 function HeroSection() {
+
+    useEffect(()=>{
+        AOS.init();
+      },[])
+
     return (
         <HeroSectionStyle>
             <NavigationBar />
@@ -17,7 +25,7 @@ function HeroSection() {
                     <Stack sx={{ alignItems: 'center', justifyContent: 'center', borderRadius: '200px', width: '50px', height: '30px', backgroundColor: `${getColorScheme().color1.secondary}` }}>New</Stack>
                     Automated Lead Generation
                 </Box>
-                <Typography level="h1" color="white" sx={{ fontSize: '85px', textAlign: 'center' }}>Intelligent Automation for Modern Businesses.</Typography>
+                <Typography data-aos="zoom-in" data-aos-duration="1000" level="h1" color="white" sx={{ fontSize: '85px', textAlign: 'center' }}>Intelligent Automation for Modern Businesses.</Typography>
                 <Typography level="h4" fontWeight={'400'} color="white">Xtract brings AI automation to your fingertips & streamline tasks.</Typography>
                 <Stack direction={'row'} gap={4}>
                     <Button endDecorator={<ArrowOutward />} sx={{ bgcolor: `${getColorScheme().color1.secondary}` }}>Get in touch</Button>

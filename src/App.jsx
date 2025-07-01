@@ -7,15 +7,22 @@ import HeroSection from './components/HeroSection';
 import ServicesSection from './components/ServicesSection';
 import OurProcess from './components/OurProcess';
 import SideBar from './components/SideBar';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import { useEffect } from 'react';
 
 function App() {
 
+  useEffect(()=>{
+    AOS.init();
+  },[])
+
   return (
     <FullPageLayout>
-      {/* <HeroSection/>
+      <HeroSection/>
       <ServicesSection/>
-      <OurProcess/> */}
-      <SideBar/>
+      <OurProcess/>
+      {/* <SideBar/> */}
     </FullPageLayout>
   )
 }
