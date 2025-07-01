@@ -39,7 +39,7 @@ function SideBar() {
                 {/* Navigation */}
                 <Box p={3} mt={3}>
                     {/* Nav List */}
-                    <List sx={{ gap: 2 }}>
+                    <List sx={{ gap: 2}}>
 
                         <ListItemButton sx={{
                             color: 'white', borderRadius: '5px',
